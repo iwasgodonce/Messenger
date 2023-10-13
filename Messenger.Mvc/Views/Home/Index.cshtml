@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section Navbar
+{
+    <vc:friend-list/>
+}
+
+<div class="text-center">
+    <h1 class="display-4">Друзья</h1>
+    <div id="friend-profile">@await Html.PartialAsync("_Profile")</div>
+</div>
+

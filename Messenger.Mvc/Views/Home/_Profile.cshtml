@@ -1,0 +1,16 @@
+﻿@using Messenger.Mvc.ViewModels.Home;
+@model ProfileViewModel
+@{
+}
+
+<div class="row">
+    <div class="col-4">
+        <img src="@Model.Avatar"/>
+    </div>
+    <div class="col-8">
+        @Model.Name
+        @Model.Age
+        @Model.IsMale
+        @Model.IsOnline
+    </div>
+</div>

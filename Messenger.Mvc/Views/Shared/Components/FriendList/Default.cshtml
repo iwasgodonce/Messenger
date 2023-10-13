@@ -1,0 +1,12 @@
+﻿@using Messenger.Mvc.Views.Shared.Components.FriendList;
+@model FriendListViewModel
+@{
+}
+
+<ul class="list-group">
+    @foreach(var item in Model.Items)
+    {
+        <li class="list-group-item">@item.Nickname</li>
+    }
+</ul>
+
